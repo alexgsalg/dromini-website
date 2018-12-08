@@ -3,14 +3,20 @@
 @import "abstract/variables";
 
 // // BASE
-@import "base/animations";
 @import "base/reset";
 @import "base/typography";
+@import "base/animations";
 
 // // COMPONENTS
+@import "components/navbar";
 @import "components/buttons";
+@import "components/gallery";
 
 // // LAYOUT
+@import "layout/homepage";
+@import "layout/about";
+@import "layout/cases";
+@import "layout/contact";
 
 // // Pages
 @import "pages/home";

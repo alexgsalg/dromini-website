@@ -1,0 +1,18 @@
+/*======================================
+     Gallery 
+======================================*/
+// Gallery-grid
+.col-1-2 {
+    width: calc(50% - #{$grid-gutter});
+    margin-bottom: $grid-gutter;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
