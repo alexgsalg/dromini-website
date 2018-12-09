@@ -1,23 +1,44 @@
-// ABSTRACT
+
+/*=================================
+    ABSTRACT
+=================================*/
+
 @import "abstract/mixins";
 @import "abstract/variables";
 
-// // BASE
+
+/*=================================
+    BASE
+=================================*/
+
 @import "base/reset";
-@import "base/typography";
 @import "base/animations";
 
-// // COMPONENTS
+
+/*=================================
+    COMPONENTS
+=================================*/
+
 @import "components/navbar";
+@import "components/container";
+@import "components/pageheader";
 @import "components/buttons";
 @import "components/gallery";
 
-// // LAYOUT
+
+/*=================================
+    LAYOUT
+=================================*/
+
 @import "layout/homepage";
 @import "layout/about";
 @import "layout/cases";
 @import "layout/contact";
 
-// // Pages
+
+/*=================================
+    PAGES
+=================================*/
+
 @import "pages/home";
 

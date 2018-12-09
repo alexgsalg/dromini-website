@@ -1,8 +1,27 @@
 // CORES
 $color-primary: #008200;
 $color-secondary: #29C229;
-$color-dark: #414141;
+$color-dark: #333333;
+$color-darkGray: #414141;
 $color-mediumGray: #666666;
 $color-light: #f2f2f2;
 
+//Grid
+$header-height: 5rem;
 $grid-gutter: 2rem;
+$content-gutter: 3rem;
+
+
+//Transition
+@mixin transition($type, $time) {
+    transition: $type $time;
+}
+
+//Clearfix
+@mixin clearfix {
+    &::after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+}

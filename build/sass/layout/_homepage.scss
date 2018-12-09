@@ -1,4 +1,41 @@
-/*========================================
-    PÁGINA INICIAL
- =======================================*/
+/* HERO */
  
+.hero {
+    width: calc(100% - (#{$content-gutter} * 2) );
+    height: calc(100vh - #{$header-height});
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( to bottom right, $color-primary 0%, rgba($color-secondary,.8) 100%), url('/assets/img/bg-hero.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .hero-microcopy {
+        width: 70vw;
+        max-width: 1500px;
+        color: $color-light;
+
+        .microcopy__title {
+            margin-bottom: 2vh;
+            font-size: 5.5vw;
+            line-height: 1.2em;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+    
+            span {
+                color: $color-dark;
+            }
+        }
+    
+        .microcopy__subtitle {
+            width: 70%;
+            font-size: 1.7vw;
+            line-height: 1.2em;
+            color: $color-light;
+            margin-bottom: 4vh;
+        }
+    }
+ }
