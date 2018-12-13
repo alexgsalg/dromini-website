@@ -13,6 +13,7 @@
 
 @import "base/reset";
 @import "base/animations";
+@import "base/typography";
 
 
 /*=================================
@@ -20,9 +21,10 @@
 =================================*/
 
 @import "components/navbar";
+@import "components/buttons";
 @import "components/container";
 @import "components/pageheader";
-@import "components/buttons";
+@import "components/grid";
 @import "components/gallery";
 
 

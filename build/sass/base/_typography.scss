@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Roboto:400,700,900');
+
+/* Global Typography */
+body {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6em;
+    letter-spacing: 0.03em;
+}
+
+h2, h3,
+h4, h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    color: $color-mediumGray;
+}

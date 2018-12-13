@@ -1,7 +1,6 @@
 
 /* Gallery-grid */
 .col-1-2 {
-    width: calc(50% - #{$grid-gutter});
     margin-bottom: $grid-gutter;
 }
 

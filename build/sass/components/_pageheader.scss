@@ -1,0 +1,26 @@
+.heading {
+    margin: 4rem 0 3rem;
+    width: 85%;
+
+    .heading-title {
+        color: $color-darkGray;
+        font-size: 3.5vw;
+        margin-bottom: 1.5rem;
+    }
+    
+    .stripe {
+        width: 20rem;
+        height: 2px;
+        background: linear-gradient(to left, $color-secondary 0%, $color-primary 100%);
+        margin-bottom: 1rem;
+    }
+    
+    .heading-subtitle {
+        
+
+        span {
+            color: $color-primary;
+            font-weight: 700;
+        }
+    }
+}

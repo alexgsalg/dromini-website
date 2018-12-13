@@ -24,12 +24,12 @@
             font-weight: 800;
             letter-spacing: 0.08em;
             text-transform: uppercase;
-    
+            
             span {
                 color: $color-dark;
             }
         }
-    
+        
         .microcopy__subtitle {
             width: 70%;
             font-size: 1.7vw;
@@ -38,4 +38,22 @@
             margin-bottom: 4vh;
         }
     }
+}
+
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    h3 {
+        font-size: 2rem;
+        color: $color-primary;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+     }
+     ul {
+         margin-left: 0;
+     }
  }
