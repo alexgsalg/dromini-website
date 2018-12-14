@@ -40,20 +40,24 @@
     }
 }
 
+section.about {
+    margin: 7rem 0;
 
-.services {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    
-    h3 {
-        font-size: 2rem;
-        color: $color-primary;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
+    .services {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+         ul {
+             margin-left: 0;
+         
+             li {
+                 list-style: none;
+             }
+         }
      }
-     ul {
-         margin-left: 0;
-     }
- }
+}
+
+section.cases {
+    margin-bottom: 5rem;
+}

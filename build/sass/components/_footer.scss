@@ -1,0 +1,19 @@
+/* FOOTER */
+
+.footer {
+    padding: 4rem 2rem 0.5rem;
+    background: linear-gradient(to bottom right, $color-dark 0%, $color-mediumGray 100%);
+    color: $color-light;
+}
+
+.copyright {
+    margin-top: 3rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid $color-mediumGray;
+    text-align: center;
+    
+    p{
+        font-size: 0.9rem;
+        color: inherit;
+    }
+}

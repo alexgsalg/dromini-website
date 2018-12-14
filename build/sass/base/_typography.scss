@@ -14,6 +14,31 @@ h6 {
     font-family: 'Lato', sans-serif;
 }
 
+h2.heading-title {
+    margin-bottom: 1.5rem;
+    font-size: 3.5vw;
+    color: $color-darkGray;
+    
+    &--footer {
+        margin-bottom: 3rem;
+        font-size: 3.5vw;
+        color: $color-light;
+        letter-spacing: 0.07em;
+    }
+}
+
+
+
+h3 {
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    color: $color-primary;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 400;
+ }
+
 p {
     color: $color-mediumGray;
 }
+

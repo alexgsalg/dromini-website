@@ -11,5 +11,28 @@
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+    
+    .gallery__item {
+        height: 25rem;
+        background: $color-mediumGray;
+        border-radius: 5px;
+        box-shadow: 0 8px 16px rgba($color-mediumGray, .4);
+        overflow: hidden;
 
+        @include transition(all, 200ms);
+        
+        &:hover{
+            transform: scale(1.03);
+            
+            img {
+                transform: translateY(-15px);
+                
+            }
+        }
+        
+        img {
+            clip-path: fill-box;
+            @include transition(transform, 200ms);
+        }
+    }
 }

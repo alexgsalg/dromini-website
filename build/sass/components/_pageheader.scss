@@ -1,12 +1,6 @@
 .heading {
     margin: 4rem 0 3rem;
     width: 85%;
-
-    .heading-title {
-        color: $color-darkGray;
-        font-size: 3.5vw;
-        margin-bottom: 1.5rem;
-    }
     
     .stripe {
         width: 20rem;
@@ -17,10 +11,15 @@
     
     .heading-subtitle {
         
-
         span {
             color: $color-primary;
             font-weight: 700;
         }
     }
+}
+
+.heading--center {
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
 }

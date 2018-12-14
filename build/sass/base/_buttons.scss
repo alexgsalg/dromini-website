@@ -1,0 +1,30 @@
+ /* BUTTONS */
+ .btn {
+     text-transform: uppercase;
+     padding: 1.2rem 3rem;
+     text-align: center;
+     
+     box-shadow: 2px 4px 6px rgba($color-dark,.25);
+     @include transition(all,200ms);
+     
+     &:hover {
+         transform: translateY(-3px);
+    }
+    
+    &:active {
+        transform: translateY(-1px);
+    }
+    
+    &--primary {
+        background: $color-primary;
+        color: $color-light;
+    }
+
+    &--big {
+        width: 350px;
+    }
+}
+    
+.btn--light {
+    border: 2px solid;
+ }
