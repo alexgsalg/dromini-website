@@ -5,33 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
 </head>
 <body>
-    
-LOGO
-<nav>
-    <a href="/index.html">Home</a>
-    <a href="/sobre.html">Sobre</a>
-    <a href="/portfolio.html">Portfolio</a>
-    <a href="/contato.html">Contato</a>
-</nav>
+    <header class="navbar">
+        <img src="/assets/img/logo-horizontal.svg" class="logo" alt="Dromini LOGO">
+        <nav class="menu">
+            <a class="menu-item current-menu-item" href="/views/index.html">Home</a>
+            <a class="menu-item" href="/views/sobre.html">Sobre</a>
+            <a class="menu-item" href="/views/portfolio.html">Portfolio</a>
+            <a class="menu-item" href="/views/contato.html">Contato</a>
+        </nav>
+    </header>
 <br>
 <h1>Nossos Projetos</h1>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nulla adipisci illo quis, corrupti voluptatem quod labore aliquid.</p>
 <br>
-<ul>
-    <li>Websites</li>
-    <li>Brandings</li>
-</ul>
-<article>Case 1 <br></article>
-<article>Case 2 <br></article>
-<article>Case 3 <br></article>
-<article>Case 4 <br></article>
-<article>Case 5 <br></article>
-<article>Case 6 <br></article>
-<article>Case 7 <br></article>
-<article>Case 8 <br></article>
-<a href="">Carregar mais</a>
+<section class="cases">
+    <div class="heading">
+        <h2 class="heading-title">Um pouco do que fizemos</h2>
+        <div class="stripe"></div>
+        <p class="heading-subtitle">Nós ajudamos empresas e pequenos negócios com seus primeiros passos no mundo digital, criamos designes que cheguem ao público com maior eficiência e promovam o engajamento para assim fazer sua marca crescer ainda mais.</p>
+    </div>
+    <ul class="cases__filter">
+        <li>Websites</li>
+        <li>Brandings</li>
+    </ul>
+    <div class="gallery">
+        <a class="gallery__item col-1-2">
+            <img src="/assets/img/bg-hero.jpg" alt="">
+        </a>
+        <a class="gallery__item col-1-2">
+            <img src="/assets/img/bg-hero.jpg" alt="">
+        </a>
+        <a class="gallery__item col-1-2">
+            <img src="/assets/img/bg-hero.jpg" alt="">
+        </a>
+        <a class="gallery__item col-1-2">
+            <img src="/assets/img/bg-hero.jpg" alt="">
+        </a>
+    </div>
+    <div class="flex-center">
+        <a href="" class="btn btn--big btn--primary">Alguns outros</a>
+    </div>
+</section>
 <br>
 <h2>Sua marca não está sendo vista?</h2>
 <a href="">Vamos tomar um café</a>

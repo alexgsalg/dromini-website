@@ -5,39 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
 </head>
 <body>
-    
-LOGO
-<nav>
-    <a href="/index.html">Home</a>
-    <a href="/sobre.html">Sobre</a>
-    <a href="/portfolio.html">Portfolio</a>
-    <a href="/contato.html">Contato</a>
-</nav>
-<br>
-<h1>Sobre a Dromini</h1>
-<p>Somos um estúdio online com foco em elevar o valor de sua empresa com todo o suporte que temos</p>
-<br>
-<h2>History time</h2>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam suscipit cum error vero, nobis, excepturi iste libero odio aut similique, numquam repellat! Dignissimos quo accusantium eaque. Modi necessitatibus eveniet culpa?</p>
-<br>
-CTA 
-<p>Quer aprender novas skills para entrar no mercado de trabalho?<br>Em breve estaremos abrindo vagas para cursos individuais e online para você aprender sem sair de casa.</p>
-<p>EM BREVE</p>
-<br>
-<h2>Eles confiaram em nós</h2>
-<p>Temos o prazer de ter ao nosso lado empresas como essas que confiaram em nosso potencial e hoje estão no mercado alcançando seus objetivos.</p>
-Logos de clientes
-<h2>Parcerias</h2>
-<p>Nossa carta na manga é ter parceiros de vários setores para poder atender ainda mais suas necessidades e conseguir seu tão sonhado sucesso no mercado de trabalho.</p>
-Logos de parceiros
-<br>
-<h2>Quer ser um parceiro?</h2>
-<p>Estamos aceitando novos contatos e empresas que queiram ser nossas parceiras, caso esteja interessado em participar desse network nos mande um email e mandaremos mais informações.</p>
-<a href="">Chegue mais!</a>
-<br>
-<p>Copyright  2018 - Dromini Design & Web</p>
+    <header class="navbar">
+        <img src="/assets/img/logo-horizontal.svg" class="logo" alt="Dromini LOGO">
+        <nav class="menu">
+            <a class="menu-item" href="/views/index.html">Home</a>
+            <a class="menu-item current-menu-item" href="/views/sobre.html">Sobre</a>
+            <a class="menu-item" href="/views/portfolio.html">Portfolio</a>
+            <a class="menu-item" href="/views/contato.html">Contato</a>
+        </nav>
+    </header>
+    <section class="hero--small">
+        <div class="hero-microcopy">
+            <h1 class="microcopy__title">Sobre a <span>Dromini</span></h1>
+            <p class="microcopy__subtitle">Somos um estúdio online com foco em elevar o valor de sua empresa com todo o suporte que temos</p>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <section class="about flex-between">
+                <div class="col-1-2">
+                    <div class="heading heading--fullwidth">
+                        <h2 class="heading-title">History time</h2>
+                        <div class="stripe"></div>
+                        <p class="heading-subtitle">Desde <span>2014</span> ajudamos empresas e pequenos negócios com seus primeiros passos no mundo digital, criamos designes que cheguem ao público com maior eficiência e promovam o engajamento para assim fazer sua marca crescer ainda mais.</p>
+                    </div>
+                </div>
+                <div class="col-1-2">
+                    <img class="about__img"src="/assets/img/bg-hero.jpg" alt="">
+                </div>
+            </section>
+        </div>
+        <section class="cta">
+                <div class="heading--center">
+                    <p>Quer aprender novas skills para entrar no mercado de trabalho?<br>Em breve estaremos abrindo vagas para cursos individuais e online para você aprender sem sair de casa.</p>
+                    <h3 class="text-light">EM BREVE</h3>
+                </div>
+        </section>
+        <div class="container">
+            <section class="clients">
+                <div class="heading heading--fullwidth">
+                    <h2 class="heading-title">Eles confiaram em nós</h2>
+                    <div class="stripe"></div>
+                    <p class="heading-subtitle">Temos o prazer de ter ao nosso lado empresas como essas que confiaram em nosso potencial e hoje estão no mercado alcançando seus objetivos.</p>
+                    <ul class="flex-start flex-wrap">
+                        <li class="col-1-4 clients__item">
+                            <img src="/assets/img/logo-horizontal.svg" alt="">
+                        </li>
+                        <li class="col-1-4 clients__item">
+                            <img src="/assets/img/logo-horizontal.svg" alt="">
+                        </li>
+                        <li class="col-1-4 clients__item">
+                            <img src="/assets/img/logo-horizontal.svg" alt="">
+                        </li>
+                        <li class="col-1-4 clients__item">
+                            <img src="/assets/img/logo-horizontal.svg" alt="">
+                        </li>
+                        <li class="col-1-4 clients__item">
+                            <img src="/assets/img/logo-horizontal.svg" alt="">
+                        </li>
+                        <li class="col-1-4 clients__item">
+                            <img src="/assets/img/logo-horizontal.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="partners">
+                <div class="heading heading--fullwidth">
+                    <h2 class="heading-title">Parcerias</h2>
+                    <div class="stripe"></div>
+                    <p class="heading-subtitle">Nossa carta na manga é ter parceiros com várias especialidades para poder atender ainda mais suas necessidades e conseguir seu tão sonhado sucesso no mercado de trabalho.</p>
+                </div>
+                <div class="flex-between flex-wrap">
+                    <a href="#" class="col-1-3 partners__item">
+                        <img src="/assets/img/logo-horizontal.svg" alt="">
+                    </a>
+                    <a href="#" class="col-1-3 partners__item">
+                        <img src="/assets/img/logo-horizontal.svg" alt="">
+                    </a>
+                    <a href="#" class="col-1-3 partners__item">
+                        <img src="/assets/img/logo-horizontal.svg" alt="">
+                    </a>
+                   
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="heading--center">
+            <h2 class="heading-title--footer">Quer ser um parceiro?</h2>
+            <p>Estamos aceitando novos contatos e empresas que queiram ser nossas parceiras, caso esteja interessado em participar desse network nos mande um email e mandaremos mais informações.</p>
+            <a href="" class="btn btn--light">Chegue mais!</a>
+        </div>
+        <div class="copyright">
+            <p>Copyright  2018 - Dromini Design & Web</p>
+        </div>
+    </footer>
 
 </body>
 </html>

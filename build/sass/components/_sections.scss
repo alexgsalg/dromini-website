@@ -1,0 +1,43 @@
+/* Section*/
+
+section {
+    margin-bottom: 6rem;
+}
+
+section.about {
+
+    .services {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+         ul {
+             margin-left: 0;
+         
+             li {
+                 list-style: none;
+             }
+         }
+     }
+}
+
+
+/* CTA section */
+
+section.cta {
+    width: calc(100% - (#{$content-gutter} * 2) );
+    min-height: 20vh;
+    margin: 0 auto 6rem;
+    padding: 8vh 0;
+    background-image: linear-gradient( to bottom right, $color-primary 0%, rgba($color-secondary,.8) 100%);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    p {
+        font-size: 1.5rem;
+        line-height: 1.7em;
+        color: $color-light;
+        margin-bottom: 2rem;
+    }
+}

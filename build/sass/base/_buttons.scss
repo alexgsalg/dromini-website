@@ -1,10 +1,10 @@
  /* BUTTONS */
  .btn {
      text-transform: uppercase;
-     padding: 1.2rem 3rem;
+     padding: 1rem 3rem;
      text-align: center;
      
-     box-shadow: 2px 4px 6px rgba($color-dark,.25);
+     box-shadow: 0px 4px 6px rgba($color-dark,.25);
      @include transition(all,200ms);
      
      &:hover {
@@ -27,4 +27,7 @@
     
 .btn--light {
     border: 2px solid;
+ }
+ .btn--link {
+
  }

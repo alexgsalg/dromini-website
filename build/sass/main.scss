@@ -26,23 +26,17 @@
 @import "components/footer";
 @import "components/container";
 @import "components/pageheader";
+@import "components/sections";
 @import "components/grid";
 @import "components/gallery";
 
 
 /*=================================
-    LAYOUT
-=================================*/
-
-@import "layout/homepage";
-@import "layout/about";
-@import "layout/cases";
-@import "layout/contact";
-
-
-/*=================================
-    PAGES
+PAGES
 =================================*/
 
 @import "pages/home";
+@import "pages/about";
+@import "pages/cases";
+@import "pages/contact";
 
